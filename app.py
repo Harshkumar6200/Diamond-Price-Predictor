@@ -1,4 +1,4 @@
-pip install scikit-learn==1.5.1
+pip install scikit-learn==1.4.2
 
 import streamlit as st
 import pickle
