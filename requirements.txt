@@ -3,6 +3,5 @@ numpy
 pandas
 scikit-learn
 altair
-git add requirements.txt
 git commit -m "Update scikit-learn version"
 git push origin main
