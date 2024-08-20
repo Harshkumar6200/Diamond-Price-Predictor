@@ -16,16 +16,16 @@ st.title('Diamond Price Prediction')
 st.header('Fill the Details to Predict Diamond price')
 
 # Define input fields for all features used in the model
-st.image(r"Carat weight 1.png")
+st.image(r"D:\PYTHON1\Advance ML Project Using Chatgpt\Carat weight 1.png")
 carat = st.number_input('Carat', min_value=0.0, max_value=5.0, step=0.01)
 
-st.image(r"Cut 1.png") 
+st.image(r"D:\PYTHON1\Advance ML Project Using Chatgpt\Cut 1.png") 
 cut = st.selectbox('Cut', ['Fair', 'Good', 'Very Good', 'Premium', 'Ideal'])
 
-st.image(r"Colour 1.png")
+st.image(r"D:\PYTHON1\Advance ML Project Using Chatgpt\Colour 1.png")
 color = st.selectbox('Color', ['J', 'I', 'H', 'G', 'F', 'E', 'D'])
 
-st.image(r"Clarity 1.png")
+st.image(r"D:\PYTHON1\Advance ML Project Using Chatgpt\Clarity 1.png")
 clarity = st.selectbox('Clarity', ['I1', 'SI2', 'SI1', 'VS2', 'VS1', 'VVS2', 'VVS1', 'IF'])
 
 depth = st.number_input("Depth: Percentage of diamond's height", min_value=50.0, max_value=70.0, step=0.1)
